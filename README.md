@@ -10,6 +10,9 @@ Machine learning models rely on minimizing the difference between the model and 
 Using the minimize function provided by the Scipy library, we found the parameters that minimized the least-squares error for each model on the training data. We then evaluated the performance of each model on the test data and compared their least-squares errors. We discovered that the choice of model and the size of the dataset had a significant impact on the accuracy of the predictions.
 
 Through this exercise, we gained insights into the challenges of model fitting and error analysis, as well as the importance of model selection and evaluation for real-world applications. By optimizing models with the least-squares error method, we were able to improve their accuracy and create reliable predictions.
+
+As a fun aside, much of the code for this project was generated using ChatGPT
+
 ## Theoretical Background
 In the field of machine learning, a common approach for modeling a system or phenomenon is to use the Least-Squares fitting method. This algorithm involves defining a function or set of functions that maps inputs to outputs by optimizing the parameters of the function(s) to minimize the sum of the squared errors between the predicted and actual outputs. The least-squares error is evaluated at each point by finding the square of the difference between the model and true data. The goal is to minimize this error through various solutions of the model, which give different errors at each point.
 
